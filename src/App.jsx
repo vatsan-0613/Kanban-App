@@ -14,7 +14,7 @@ export default function App(){
   const [isDataFetched, setDataFetched] = React.useState(false);
 
   React.useEffect(() => {
-    fetch("https://kanban-backend-epgo/api/getData")
+    fetch("https://kanban-backend-epgo.onrender.com/api/getData")
       .then((response) =>{
         return response.json();
       })
