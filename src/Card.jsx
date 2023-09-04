@@ -44,7 +44,7 @@ export default function Card(props) {
     props.updateCard(props.cardName, updatedTasks);
     setNewItem('');
     setShowAdd(true);
-    fetch("https://kanban-web-app.onrender.com/api/post", {
+    fetch("https://kanban-backend-epgo/api/post", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json', // Set the content type to JSON
@@ -78,7 +78,7 @@ export default function Card(props) {
     setTasks(updatedTasks);
     props.updateCard(props.cardName, updatedTasks);
 
-    fetch(`https://kanban-web-app.onrender.com/api/edit/${props.cardName}/${toEdit}`, {
+    fetch(`https://kanban-backend-epgo/api/edit/${props.cardName}/${toEdit}`, {
       method: 'PUT', // You can also use 'PATCH' if it's a partial update
       headers: {
         'Content-Type': 'application/json',
@@ -119,7 +119,7 @@ export default function Card(props) {
     props.updateCard(props.cardName, updatedTasks);
   
     // Send a request to the server to update the board (assuming you have a route for this)
-    fetch(`https://kanban-web-app.onrender.com/api/board/${props.cardName}`, {
+    fetch(`https://kanban-backend-epgo/api/board/${props.cardName}`, {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json',
