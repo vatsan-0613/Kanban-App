@@ -21,7 +21,7 @@ BackEnd : NodeJS, ExpressJS <br>
 Database : MongodDB <br>
 Deployment Tool : render 
 
-### NOTE
+### NOTE :
 This repository only features the frontend code and for backend I've created a separate respository. 
 
 ### BackEnd Repsository Link : 
