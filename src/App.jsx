@@ -14,7 +14,7 @@ export default function App(){
   const [isDataFetched, setDataFetched] = React.useState(false);
 
   React.useEffect(() => {
-    fetch("https://kanban-sri.onrender.com/api/getData")
+    fetch("https://kanban-web-app.onrender.com/api/getData")
       .then((response) =>{
         return response.json();
       })
