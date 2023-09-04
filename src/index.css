@@ -3,6 +3,8 @@ body{
     background-image: url('/images/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 }
 
 .header{
@@ -111,6 +113,6 @@ body{
   }
   .card{
     margin-bottom: 2rem;
-    width: 90%;
+    width: 85%;
   }
 }
