@@ -1,8 +1,30 @@
-# React + Vite
+# Kanban-Task-Management-Web-App 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Kanban Board is a task management which allows people to organize things effectively and track tasks as todo, doing, done. 
+Users can add tasks, edit tasks and also delete them in each section.
+This web app is made responsive for mobile and desktop screens.
+Users can seamlessly switch between mobile and desktop and still track their tasks.
+All tasks are saved to database(so no worry in loosing the data).
 
-Currently, two official plugins are available:
+## DEPLOYED LINK
+[Deployed-website-link](https://kanban-web-app.onrender.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## DESKTOP WEBSITE SCREENSHOT
+![Desktop Website Screenshot](images/desktop-website.png)
+
+## MOBILE WEBSITE SCREENSHOT
+![Mobile Website Screenshot](images/mobile-website.png)
+
+## TOOLS USED : 
+FrontEnd : ReactJS, Bootstrap
+BackEnd : NodeJS, ExpressJS
+Database : MongodDB 
+Deployment Tool : render 
+
+### NOTE
+This repository only features the frontend code and for backend I've created a separate respository. 
+
+### BackEnd Repsository Link : 
+[BackEnd-Repository-Link](https://github.com/vatsan-0613/kanban-backend)
+
+
