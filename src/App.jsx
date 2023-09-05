@@ -47,8 +47,8 @@ export default function App() {
         </div>
       ) : (
         <div
-          class="d-flex justify-content-center align-items-center"
-          style="min-height: 100vh;"
+          className="d-flex justify-content-center align-items-center"
+          style={{minHeight: "100vh"}}
         >
           <Spinner animation="grow" variant="info" />
         </div>
