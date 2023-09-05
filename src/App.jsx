@@ -1,6 +1,8 @@
 import Header from "./Header"
 import Card from "./Card"
 import React from "react";
+import Spinner from 'react-bootstrap/Spinner';
+
 
 
 export default function App(){
@@ -36,13 +38,13 @@ export default function App(){
   return(
     <>
       <Header />
-      {isDataFetched &&
+      {isDataFetched ?
       <div className="cards mt-5">
       <Card  tasks = {board.todo} cardName={'Todo'} updateCard={updateCard}/>
       <Card  tasks = {board.doing} cardName={'Doing'} updateCard={updateCard}/>
       <Card  tasks = {board.done} cardName={'Done'} updateCard={updateCard}/>
       </div>
-      }
+      :  <Spinner animation="grow" variant="info"/>}
     </>
     
   )
