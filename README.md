@@ -1,6 +1,6 @@
 # Kanban-Task-Management-Web-App 
 
-Kanban Board is a task management which allows people to organize things effectively and track tasks as todo, doing, done. <br>
+Kanban Board is a task management application which allows people to organize things effectively and track tasks as todo, doing, done. <br>
 Users can add tasks, edit tasks and also delete them in each section. <br>
 This web app is made responsive for mobile and desktop screens. <br>
 Users can seamlessly switch between mobile and desktop and still track their tasks. <br>
